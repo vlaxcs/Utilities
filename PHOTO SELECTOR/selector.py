@@ -17,8 +17,8 @@ def setConfig():
     with open(os.path.join(os.path.dirname(__file__), "config.dpr")) as f:
         attr = []
         for line in f.readlines():
-            if line.startswith(">"):
-                attr.append(line.split(">")[1].strip())
+            if line.startswith(">>"):
+                attr.append(line.split(">>")[1].strip())
 
     try:
         config["id_path"] = os.path.join(os.path.dirname(__file__), "id.in")
@@ -84,8 +84,6 @@ def copy_files(id_path, photo_format, src, dest, classify = False):
             print(f"Copied: {file["name"]} -> {tempdest}")
         else:
             print(f"File not found: {full_file_name}")
-
-# photo_format to upper
 
 if __name__ == "__main__":
     setConfig()

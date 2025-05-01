@@ -15,15 +15,15 @@
 ============= COMPLETEAZĂ ============
 
 ### Formatul/extensia pozelor selectate (Posibile: CR2, JPG, PNG, etc.)
-> CR2
+>> CR2
 
 ### Sursă (Unde ai pozele acum?)
-> C:\AAD. POZE ASMI DELETE\BOARDGAMES
+>> C:\AAD. POZE ASMI DELETE\BOARDGAMES
 
 ### Destinație (Unde vrei să le muți?)
-> C:\AAD. POZE ASMI DELETE
+>> C:\AAD. POZE ASMI DELETE
 
 ### Clasifici/Sortezi
-> Da
+>> Da
 
 ============= COMPLETEAZĂ ============
