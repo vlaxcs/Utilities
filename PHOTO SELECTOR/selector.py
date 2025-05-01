@@ -25,10 +25,12 @@ def setConfig():
         config["photo_format"] = attr[0].upper()
         config["source_path"] = os.path.normpath(attr[1])
         config["destination_path"] = os.path.normpath(attr[2])
-        config["classify"] = False if attr[3].lower() != "da" else True
+        config["classify"] = False if attr[3].lower() != "da" and attr[3].lower != "yes" else True
         if config["classify"]:
             config["classifier"]["classifier_path"] = os.path.join(os.path.dirname(__file__), "classify.in")
         
+        print(config)
+
     except:
         print("Invalid configuration file.")
         exit(0)

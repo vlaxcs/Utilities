@@ -18,12 +18,12 @@
 >> CR2
 
 ### Sursă (Unde ai pozele acum?)
->> C:\AAD. POZE ASMI DELETE\BOARDGAMES
-
-### Destinație (Unde vrei să le muți?)
 >> C:\AAD. POZE ASMI DELETE
 
+### Destinație (Unde vrei să le muți?)
+>> C:\AAD. POZE ASMI DELETE\BOARDGAMES
+
 ### Clasifici/Sortezi
->> Da
+>> Yes
 
 ============= COMPLETEAZĂ ============
